@@ -1,0 +1,33 @@
+.footer {
+	padding-top: 24px;
+	margin-top: -24px;
+	padding-bottom: 50px;
+}
+
+.footer > .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__copyright {
+	color: #fff;
+	text-align: center;
+	font-family: Monument Grotesk;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 142.857%;
+	letter-spacing: 0.28px;
+}
+
+.footer__back-to-top {
+	color: #fff;
+	text-align: right;
+	font-family: Monument Grotesk;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 142.857%;
+	letter-spacing: 0.28px;
+	text-decoration: none;
+}

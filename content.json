@@ -1,0 +1,72 @@
+{
+	"title": "Leete",
+	"sections": [
+		{
+			"name": "hero",
+			"subtitle": "Est. 2015.",
+			"title": "Welcome to home of DJ based in Split, Croatia",
+			"brand": "./assets/images/hero/brand.svg",
+			"image": {
+				"srcset": "./assets/images/hero/image@3x.jpg 3x, ./assets/images/hero/image@2x.jpg 2x, ./assets/images/hero/image.jpg 1x",
+				"src": "./assets/images/hero/image.jpg"
+			}
+		},
+		{
+			"name": "about",
+			"title": "My story",
+			"text": "Lorem ipsum dolor sit amet consectetur. Hendrerit nibh sed nulla at commodo."
+		},
+		{
+			"name": "services",
+			"title": "Services",
+			"text": "Leete is a mobile and club DJ and his services are not limited, he is open to any joint action.",
+			"image": {
+				"srcset": "./assets/images/services/image@3x.jpg 3x, ./assets/images/services/image@2x.jpg 2x, ./assets/images/services/image.jpg 1x",
+				"src": "./assets/images/services/image.jpg"
+			}
+		},
+		{
+			"name": "gallery",
+			"subtitle": "Lifetime moments",
+			"title": "Gallery",
+			"images": [
+				[
+					{
+						"srcset": "./assets/images/gallery/1-1@3x.jpg 3x, ./assets/images/gallery/1-1@2x.jpg 2x, ./assets/images/gallery/1-1.jpg 1x",
+						"src": "./assets/images/gallery/1-1.jpg"
+					}
+				],
+				[
+					{
+						"srcset": "./assets/images/gallery/2-1@3x.jpg 3x, ./assets/images/gallery/2-1@2x.jpg 2x, ./assets/images/gallery/2-1.jpg 1x",
+						"src": "./assets/images/gallery/2-1.jpg"
+					},
+					{
+						"srcset": "./assets/images/gallery/2-2@3x.jpg 3x, ./assets/images/gallery/2-2@2x.jpg 2x, ./assets/images/gallery/2-2.jpg 1x",
+						"src": "./assets/images/gallery/2-2.jpg"
+					}
+				],
+				[
+					{
+						"srcset": "./assets/images/gallery/3-1@3x.jpg 3x, ./assets/images/gallery/3-1@2x.jpg 2x, ./assets/images/gallery/3-1.jpg 1x",
+						"src": "./assets/images/gallery/3-1.jpg"
+					}
+				],
+				[
+					{
+						"srcset": "./assets/images/gallery/4-1@3x.jpg 3x, ./assets/images/gallery/4-1@2x.jpg 2x, ./assets/images/gallery/4-1.jpg 1x",
+						"src": "./assets/images/gallery/4-1.jpg"
+					},
+					{
+						"srcset": "./assets/images/gallery/4-2@3x.jpg 3x, ./assets/images/gallery/4-2@2x.jpg 2x, ./assets/images/gallery/4-2.jpg 1x",
+						"src": "./assets/images/gallery/4-2.jpg"
+					}
+				]
+			]
+		},
+		{
+			"name": "booking",
+			"subtitle": "Booking and availability"
+		}
+	]
+}

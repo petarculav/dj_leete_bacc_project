@@ -1,0 +1,12 @@
+@import url('./shared/reset.css');
+@import url('./shared/global.css');
+@import url('./shared/fonts.css');
+@import url('./shared/shared.css');
+@import url('./components/navigation.css');
+@import url('./components/hero.css');
+@import url('./components/about.css');
+@import url('./components/services.css');
+@import url('./components/gallery.css');
+@import url('./components/booking.css');
+@import url('./components/footer.css');
+@import url('./components/admin.css');

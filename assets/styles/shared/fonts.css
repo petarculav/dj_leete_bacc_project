@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Monument Grotesk';
+	src: local('Monument Grotesk Regular'), local('Monument Grotesk'),
+		url('../../fonts/Monument\ Grotesk.woff2') format('woff2'),
+		url('../../fonts/Monument\ Grotesk.woff') format('woff'),
+		url('../../fonts/Monument\ Grotesk.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bird House Script';
+	src: local('Bird House Script'), local('Bird House Script'),
+		url('../../fonts/Bird\ House\ Script.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Thiket Regular';
+	src: local('Thiket Regular Regular'), local('Thiket Regular'),
+		url('../../fonts/Thiket\ Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}

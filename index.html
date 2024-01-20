@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="./assets/styles/style.css"
+		/>
+		<title>Leete</title>
+	</head>
+	<body>
+		<nav
+			class="nav"
+			id="nav"
+		>
+			<ul class="container container--nav nav__items">
+				<li class="nav__item">
+					<a
+						href="#about"
+						class="nav-item__link"
+					>
+						About
+					</a>
+				</li>
+				<li class="nav__item">
+					<a
+						href="#services"
+						class="nav-item__link"
+					>
+						Services
+					</a>
+				</li>
+				<li class="nav__item nav__item--brand">
+					<a
+						href="#"
+						class="nav-item__link"
+					>
+						<img src="./assets/images/brand.svg" />
+					</a>
+				</li>
+				<li class="nav__item">
+					<a
+						href="#gallery"
+						class="nav-item__link"
+					>
+						Gallery
+					</a>
+				</li>
+				<li class="nav__item">
+					<a
+						href="#booking"
+						class="nav-item__link"
+					>
+						Booking
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<section
+			class="hero"
+			id="hero"
+		>
+			<div class="container">
+				<h2 class="hero__subtitle">Est. 2015.</h2>
+				<h1 class="hero__title">
+					Welcome to home of DJ based in Split, Croatia
+				</h1>
+				<section class="hero__brand">
+					<img src="./assets/images/hero/brand.svg" />
+				</section>
+			</div>
+			<section class="hero__image">
+				<img
+					srcset="
+						./assets/images/hero/image@3x.jpg 3x,
+						./assets/images/hero/image@2x.jpg 2x,
+						./assets/images/hero/image.jpg    1x
+					"
+					src="/assets/images/hero/image.jpg"
+					alt=""
+				/>
+			</section>
+		</section>
+		<section
+			class="about"
+			id="about"
+		>
+			<div class="container">
+				<h1 class="about__title">My story</h1>
+				<p class="about__text">
+					Lorem ipsum dolor sit amet consectetur. Hendrerit nibh sed nulla at
+					commodo.
+				</p>
+			</div>
+		</section>
+		<section
+			class="services"
+			id="services"
+		>
+			<div class="container">
+				<div class="services__content">
+					<h1 class="services__title">Services</h1>
+					<p class="services__text">
+						Leete is a mobile and club DJ and his services are not limited, he
+						is open to any joint action.
+					</p>
+				</div>
+				<div class="services__image">
+					<img
+						srcset="
+							./assets/images/services/image@3x.jpg 3x,
+							./assets/images/services/image@2x.jpg 2x,
+							./assets/images/services/image.jpg    1x
+						"
+						src="/assets/images/services/image.jpg"
+						alt=""
+					/>
+				</div>
+			</div>
+		</section>
+		<section
+			class="gallery"
+			id="gallery"
+		>
+			<div class="container">
+				<h2 class="gallery__subtitle">Lifetime moments</h2>
+				<h1 class="gallery__title">Gallery</h1>
+				<div class="gallery__row">
+					<img
+						srcset="
+							./assets/images/gallery/1-1@3x.jpg 3x,
+							./assets/images/gallery/1-1@2x.jpg 2x,
+							./assets/images/gallery/1-1.jpg    1x
+						"
+						src="/assets/images/gallery/1-1.jpg"
+						alt=""
+					/>
+				</div>
+				<div class="gallery__row">
+					<img
+						srcset="
+							./assets/images/gallery/2-1@3x.jpg 3x,
+							./assets/images/gallery/2-1@2x.jpg 2x,
+							./assets/images/gallery/2-1.jpg    1x
+						"
+						src="/assets/images/gallery/2-1.jpg"
+						alt=""
+					/>
+					<img
+						srcset="
+							./assets/images/gallery/2-2@3x.jpg 3x,
+							./assets/images/gallery/2-2@2x.jpg 2x,
+							./assets/images/gallery/2-2.jpg    1x
+						"
+						src="/assets/images/gallery/2-2.jpg"
+						alt=""
+					/>
+				</div>
+				<div class="gallery__row">
+					<img
+						srcset="
+							./assets/images/gallery/3-1@3x.jpg 3x,
+							./assets/images/gallery/3-1@2x.jpg 2x,
+							./assets/images/gallery/3-1.jpg    1x
+						"
+						src="/assets/images/gallery/3-1.jpg"
+						alt=""
+					/>
+				</div>
+				<div class="gallery__row">
+					<img
+						srcset="
+							./assets/images/gallery/4-1@3x.jpg 3x,
+							./assets/images/gallery/4-1@2x.jpg 2x,
+							./assets/images/gallery/4-1.jpg    1x
+						"
+						src="/assets/images/gallery/4-1.jpg"
+						alt=""
+					/>
+					<img
+						srcset="
+							./assets/images/gallery/4-2@3x.jpg 3x,
+							./assets/images/gallery/4-2@2x.jpg 2x,
+							./assets/images/gallery/4-2.jpg    1x
+						"
+						src="/assets/images/gallery/4-2.jpg"
+						alt=""
+					/>
+				</div>
+			</div>
+		</section>
+		<section
+			class="booking"
+			id="booking"
+		>
+			<div class="container">
+				<h2 class="booking__subtitle">Booking and availability</h2>
+				<section class="booking__content">
+					<section class="booking__calendar">
+						<div class="booking-calendar__controls">
+							<div
+								class="booking-calendar__arrow booking-calendar__arrow--left"
+								onclick="moveMonth(-1)"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="42"
+									height="25"
+									viewBox="0 0 42 25"
+									fill="none"
+								>
+									<path
+										d="M29.708 22L39.208 12.5L29.708 3"
+										stroke="white"
+										stroke-width="3"
+										stroke-linecap="square"
+									/>
+									<path
+										d="M2 12.5H37.625"
+										stroke="white"
+										stroke-width="3"
+										stroke-linecap="square"
+									/>
+								</svg>
+							</div>
+							<div class="booking-calendar__month">February 2023</div>
+							<div
+								class="booking-calendar__arrow"
+								onclick="moveMonth(+1)"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="42"
+									height="25"
+									viewBox="0 0 42 25"
+									fill="none"
+								>
+									<path
+										d="M29.708 22L39.208 12.5L29.708 3"
+										stroke="white"
+										stroke-width="3"
+										stroke-linecap="square"
+									/>
+									<path
+										d="M2 12.5H37.625"
+										stroke="white"
+										stroke-width="3"
+										stroke-linecap="square"
+									/>
+								</svg>
+							</div>
+						</div>
+						<div class="booking-calendar__body">
+							<ul class="booking-calendar__row booking-calendar__row--header">
+								<li class="booking-calendar__item">Mon</li>
+								<li class="booking-calendar__item">Tue</li>
+								<li class="booking-calendar__item">Wen</li>
+								<li class="booking-calendar__item">Thu</li>
+								<li class="booking-calendar__item">Fri</li>
+								<li class="booking-calendar__item">Sat</li>
+								<li class="booking-calendar__item">Sun</li>
+							</ul>
+							<ul class="booking-calendar__row">
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+							</ul>
+							<ul class="booking-calendar__row">
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+							</ul>
+							<ul class="booking-calendar__row">
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+							</ul>
+							<ul class="booking-calendar__row">
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+							</ul>
+							<ul class="booking-calendar__row">
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+								<li class="booking-calendar__item"></li>
+							</ul>
+						</div>
+						<ul class="booking-calendar__legend">
+							<li class="booking-calendar-legend">Available</li>
+							<li
+								class="booking-calendar-legend booking-calendar-legend--unavailable"
+							>
+								Unavailable
+							</li>
+						</ul>
+					</section>
+					<form
+						action=""
+						class="booking__form"
+					>
+						<div class="booking-form__item">
+							<input
+								type="text"
+								class="booking-form__input"
+								required="true"
+								placeholder="Full name"
+								name="Full name"
+							/>
+						</div>
+						<div class="booking-form__item">
+							<input
+								type="email"
+								class="booking-form__input"
+								required="true"
+								placeholder="Email address"
+								name="Email address"
+							/>
+						</div>
+						<div class="booking-form__item">
+							<input
+								type="text"
+								class="booking-form__input"
+								required="true"
+								placeholder="Phone number"
+								name="Phone number"
+							/>
+						</div>
+						<div class="booking-form__item">
+							<input
+								type="text"
+								class="booking-form__input"
+								required="true"
+								placeholder="Your inqury"
+								name="Inqury"
+							/>
+						</div>
+						<div class="booking-form__item">
+							<input
+								type="submit"
+								class="booking-form__button"
+								value="Send"
+							/>
+						</div>
+					</form>
+				</section>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<span class="footer__copyright"> All rights reserved ©2023 </span>
+				<a
+					href="#nav"
+					class="footer__back-to-top"
+				>
+					↑ Back to top
+				</a>
+			</div>
+		</footer>
+		<script src="./assets/scripts/calendar.js"></script>
+		<script src="./assets/scripts/booking.js"></script>
+	</body>
+</html>
